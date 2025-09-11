@@ -1,7 +1,3 @@
-/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
-
-
-/*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
@@ -10,14 +6,6 @@
     src: url("../fonts/BalooChettan-Regular.ttf");
     src: url("../fonts/BalooChettan-Regular.ttf");
 }
-
-
-/*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
- 2) font-family: 'Poppins', sans-serif;
- ----------------------------------------*****/
-
-
-/*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
 
 @import url(animate.min.css);
 @import url(normalize.css);
@@ -31,7 +19,6 @@
 @import url(jquery-ui.css);
 @import url(nice-select.css);
 
-/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
 * {
     box-sizing: border-box !important;
@@ -226,8 +213,6 @@ button {
 }
 
 
-/* header section start */
-
 .header_section {
     width: 100%;
     float: left;
@@ -258,9 +243,7 @@ button {
 .ml-auto, .mx-auto {
     margin-left: auto!important;
 }
-.login_text {
-    
-}
+
 .login_text ul{
     margin: 0px;
     padding: 0px;
@@ -281,10 +264,6 @@ button {
     color: #252525;
 }
 
-/* header section end */
-
-
-/* banner section start */
 
 .banner_section {
     width: 100%;
@@ -441,7 +420,7 @@ button {
 }
 
 .image_main:hover .image_8 {
-    opacity: ;
+    opacity: 0 ;
 }
 
 .image_main:hover .text_main {
@@ -511,12 +490,6 @@ button {
     background-color: #252525;
     color: #ffffff;
 }
-
-
-/* services section end */
-
-
-/* blog section start */
 
 .blog_section {
     width: 100%;
@@ -615,11 +588,6 @@ button {
     color: #ffffff;
 }
 
-
-
-
-/* Zoom In #1 */
-
 .hover01 figure img {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -660,12 +628,6 @@ figure:hover+span {
     bottom: -36px;
     opacity: 1;
 }
-
-
-/* blog section end */
-
-
-/* about section start */
 
 .about_section {
     width: 100%;
@@ -741,11 +703,6 @@ figure:hover+span {
     float: left;
 }
 
-
-/* about section end */
-
-
-/* contact section start */
 
 .contact_section {
     width: 100%;
@@ -861,12 +818,6 @@ span.input-group-addon {
     background-color: #252525;
 }
 
-
-/* contact section end */
-
-
-/* client section start */
-
 .client_section {
     width: 100%;
     float: left;
@@ -975,13 +926,6 @@ span.input-group-addon {
 }
 
 
-
-
-/* client section end */
-
-
-/* footer section start */
-
 .footer_section {
     width: 100%;
     float: left;
@@ -1069,11 +1013,6 @@ span.input-group-addon {
     padding-left: 10px;
 }
 
-
-/* footer section end */
-
-/* copyright section start */
-
 .copyright_section {
     width: 100%;
     float: left;
@@ -1099,6 +1038,4 @@ span.input-group-addon {
     color: #e52e71;
 }
 
-
-/* copyright section end */
 

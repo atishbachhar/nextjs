@@ -55,6 +55,7 @@ export default function Contact() {
             <div className="book_btn"><a href="#!">Book Now</a></div>
          </div>
       </div>
+      
     </Layout>
   );
 }
