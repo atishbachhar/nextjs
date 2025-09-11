@@ -1,7 +1,13 @@
 export default function Footer() {
   return (
-    <footer className="bg-dark text-white text-center py-3 mt-5">
-      <p>© {new Date().getFullYear()} MyWebsite. All rights reserved.</p>
-    </footer>
+     <div className="copyright_section">
+         <div className="container">
+            <p className="copyright_text">2020 All Rights Reserved. Design by <a href="https://html.design" target="_blank">Free html  Templates</a> ~ Distributed by <a href="https://www.themewagon.com" target="_blank">ThemeWagon</a></p>
+         </div>
+      </div>
+    
+      
+
+
   );
 }
