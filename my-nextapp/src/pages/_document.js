@@ -5,7 +5,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>Perfect Cut</title>
+        
       <meta name="keywords" content="" />
       <meta name="description" content="" />
       <meta name="author" content="" />
